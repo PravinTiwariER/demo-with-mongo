@@ -48,6 +48,8 @@ public class HotelController {
         return "Hotel Deleted With "+id;
     }
 
+//    this cgange in controller for to perform push operation
+
     @GetMapping(path = "gethotel/{city}",produces = MediaType.APPLICATION_JSON_VALUE)
     @ResponseBody
     public List<Hotels> getByCity(@PathVariable("city") String city){
