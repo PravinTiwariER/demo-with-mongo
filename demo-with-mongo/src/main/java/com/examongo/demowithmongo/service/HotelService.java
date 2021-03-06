@@ -13,4 +13,6 @@ public interface HotelService {
     public Hotels updateHotel(Hotels hotel);
     public void deleteHotelById(String id);
     public List<Hotels> getHotelsByCity(String city);
+//    this is demo for test
+
 }
