@@ -14,5 +14,6 @@ public interface HotelService {
     public void deleteHotelById(String id);
     public List<Hotels> getHotelsByCity(String city);
 //    this is demo for test
+    //this change is for test from remote to local 
 
 }
